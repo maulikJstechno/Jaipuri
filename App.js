@@ -5,6 +5,7 @@ import Home from './App/Screen/Home';
 import Explore from './App/Screen/Explore'
 import Profile from './App/Screen/Profile';
 import Messages from './App/Screen/Messages'
+import ChatList from './App/Screen/ChatList'
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
      {/* <Home /> */}
      {/* <Explore /> */}
      {/* <Profile /> */}
-     <Messages />
+     {/* <Messages /> */}
+     <ChatList />
     </>
   );
 };
